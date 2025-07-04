@@ -16,7 +16,7 @@ Kubelet - It’s an agent which runs on each node on a cluster
 
 
 Kube proxy - The Kube Proxy Service ensures that the necessary rules are in place on the worker nodes to allow the containers running on them to reach each other.
-
+ 
 
 ￼
     Kubernetes deprecation policy
