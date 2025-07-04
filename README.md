@@ -1,4 +1,34 @@
 # kubernetes-lab
+ETCD - It’s a database that store  information in a key value format that is simple , secure & fast.
+
+Key value stores the data as an document format.
+
+
+Kube scheduler- It identifies the right nodes to place on the resources container requirement .(It deals with different damages , 
+
+
+Kube api server is the primary component to manage all orchestrating all 
+    |
+    |
+    |takes the data from kubelet 
+    |
+Kubelet - It’s an agent which runs on each node on a cluster
+
+
+Kube proxy - The Kube Proxy Service ensures that the necessary rules are in place on the worker nodes to allow the containers running on them to reach each other.
+
+
+￼
+    Kubernetes deprecation policy
+
+
+Kubectl get secret -l
+
+Lubectl get confgmap -l
+
+Kubectl get secret 
+
+Kubectl apple -f  
 - [ ] To find how many nodes are running on the cluster - kubectl get nodes
 - [ ] Flavor and version of os -Kubectl get nodes -o wide
 - [ ] To check cluster - kubectl get nodes
